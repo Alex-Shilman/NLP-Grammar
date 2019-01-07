@@ -1,0 +1,17 @@
+{
+	"types":
+		[
+			{
+				"type": "grammar",
+				"occurrences": 24
+			},
+			{
+				"type": "style",
+				"occurrences": 29
+			},			
+			{
+				"type": "spelling",
+				"occurrences": 37
+			}
+		]
+}

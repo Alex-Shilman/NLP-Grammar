@@ -1,0 +1,65 @@
+{
+	"subtypes":
+		[
+			{
+				"type": "grammar",
+				"subtype": "punctuation",
+				"occurrences":14
+			},
+			{
+				"type": "grammar",
+				"subtype": "plurality",
+				"occurrences":2
+			},
+			{
+				"type": "grammar",
+				"subtype": "capitalization",
+				"occurrences":0	
+			},
+			{
+				"type": "grammar",
+				"subtype": "possessives",
+				"occurrences":1
+			},
+			{
+				"type": "grammar",
+				"subtype": "parts of speech",
+				"occurrences":5
+			},
+			{
+				"type": "grammar",
+				"subtype": "nouns",
+				"occurrences":2
+			},
+			{
+				"type": "grammar",
+				"subtype": "pronouns",
+				"occurrences":0
+			},
+			{
+				"type": "grammar",
+				"subtype": "prepositions",
+				"occurrences":0
+			},
+			{
+				"type": "style",
+				"subtype": "complexity",
+				"occurrences":12
+			},
+			{
+				"type": "style",
+				"subtype": "clarity",
+				"occurrences":6
+			},
+			{
+				"type": "style",
+				"subtype": "diversity",
+				"occurrences":5
+			},
+			{
+				"type": "style",
+				"subtype": "transitions",
+				"occurrences":6
+			}
+		]
+}

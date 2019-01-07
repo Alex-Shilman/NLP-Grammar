@@ -1,0 +1,411 @@
+{"rules":
+	[
+		{	"id":1,
+			"name": "Double Negatives",
+			"description": "Students should avoid using multiple negatives within a single clause or sentence.",
+			"type": "style",
+			"subtype": "clarity",
+			"gradelevel": 3,
+			"standard": "",
+			"example": "I don't need no help! → I don't need any help!",
+			"resources": 
+				[
+				]
+		},
+		{	"id":2,
+			"name": "Sentence-ending Punctuation",
+			"description": "Sentences should always end with punctuation.",
+			"type": "grammar",
+			"subtype": "punctuation",
+			"gradelevel": 3,
+			"standard": null,
+			"example": "Thank you for coming → Thank you for coming!",
+			"resources":
+				[
+					{"type": "link",
+					"url":"https://owl.purdue.edu/owl/general_writing/punctuation/punctuation/punctuation_in_sentences.html",
+					"name": "Punctuation in Types of Sentences",
+					"grade": null
+					},
+					{"type": "ireadylesson",
+					"url": null,
+					"name": "Ending Punctuation: Periods",
+					"grade": 1
+					},
+					{"type": "ireadylesson",
+					"url": null,
+					"name": "Ending Punctuation: Exclamation Points",
+					"grade": 1
+					},
+					{"type": "ireadylesson",
+					"url": null,
+					"name": "Ending Punctuation: Question Marks",
+					"grade": 1
+					}
+				]
+		},
+		{   "id":5,
+            "name": "Verb & Noun Plurality Mismatch",
+            "description": "The verb and noun in the sentence have different plurality. For the sentence to be correct, both words needs to be plural or singular.",
+            "type": "grammar",
+            "subtype": "plurality",
+            "gradelevel": 3,
+            "example": "They is going home soon. → They are going home soon.",
+            "standard": null,
+            "resources":
+                [
+                ]
+        },
+		{   "id":6,
+            "name": "Capitalization in Sentences",
+            "description": "A sentence must begin with a capital letter, and the only words that should be capitalized within a sentence are proper nouns or acronyms.",
+            "type": "grammar",
+            "subtype": "punctuation",
+            "gradelevel": 3,
+            "example": "i love horses Because they are big. → I love horses becuase they are big.",
+            "standard": null,
+            "resources":
+                [
+                ]
+        },
+		{   "id":7,
+            "name": "Narrative Specific Transitions",
+            "description": "Student uses temporal words and phrases to signal event order (e.g. at first, at last, suddenly, finally, following).",
+            "type": "style",
+            "subtype": "transitions",
+            "gradelevel": 3,
+            "example": null,
+            "standard": "A minimum of 15% of sentences contain a temporal word.",
+            "resources":
+                [
+                ]
+        },
+		{   "id":8,
+            "name": "Domain-Specific Words",
+            "description": "Student used appropriate percentage of domain-specific words.",
+            "type": "style",
+            "subtype": "language",
+            "gradelevel": 3,
+            "example": null,
+            "standard": "A minimum of 30% of words are Tier 2 based on grade.",
+            "resources":
+                [
+                ]
+        },
+		{   "id":9,
+            "name": "Prompt-Related Words",
+            "description": "Student develops a topic using textual evidence.",
+            "type": "style",
+            "subtype": "language",
+            "gradelevel": 3,
+            "example": null,
+            "standard":"Essay contains textual evidence from prompt or reading (Yes/No).",
+            "resources":
+                [
+                ]
+        },
+		{   "id":10,
+            "name": "Completeness",
+            "description": "Student uses complete sentences.",
+            "type": "style",
+            "subtype": "clarity",
+            "gradelevel": 3,
+            "example": null,
+            "standard": "A minimum of 75% of sentences are complete.",
+            "resources":
+                [
+                ]
+        },
+		{   "id":11,
+            "name": "Run On Sentences",
+            "description": "Student appropriately utilizes commas, and, or, but, or multiple sentences to link two or more main independent clauses.",
+            "type": "style",
+            "subtype": "clarity",
+            "gradelevel": 3,
+            "example": null,
+            "standard": "A maximum of 10% of sentences are run on sentence.",
+            "resources":
+                [
+                ]
+        },
+		{   "id":12,
+            "name": "Grammar Overview",
+            "description": "Demonstrates grade-appropriate command of conventions with few errors.",
+            "type": "style",
+            "subtype": "clarity",
+            "gradelevel": 3,
+            "example": null,
+            "standard": "A maximum of 15% of sentences contain a grammatical error.",
+            "resources":
+                [
+                ]
+        },
+		{   "id":13,
+            "name": "Active Tense",
+            "description": "Limited use of the passive tense.",
+            "type": "style",
+            "subtype": "clarity",
+            "gradelevel": 3,
+            "example": null,
+            "standard": "A maximum of 20% of sentences are in the passive tense.",
+            "resources":
+                [
+                ]
+        },
+		{   "id":14,
+            "name": "Capitalization of Proper Nouns & Acronyms",
+            "description": "If a proper noun or acronym is used in a sentence, they need to be capitalized. ",
+            "type": "grammar",
+            "subtype": "capitalization",
+            "gradelevel": 3,
+            "example": "My name is andrea and I live in the USA. → My name is Andrea and I live in the USA.",
+            "standard": null,
+            "resources": 
+                [
+                ]
+        },
+		{	"id":15,
+            "name": "Conjuction Usage",
+            "description": "Do not begin or end sentences with a conjunction.",
+            "type": "style",
+            "subtype": "word usage",
+            "gradelevel": 3,
+            "example": "And I love to eat carrots. → I love to eat carrots.",
+            "standard": null,
+            "resources": 
+                [
+                ]
+        },
+		{	"id":16,
+            "name": "Dangling Gerunds",
+            "description": "The implied subject of a verb is missing from the sentence and needs to be included.",
+            "type": "grammar",
+            "subtype": "verbs",
+            "gradelevel": 3,
+            "example": "By using computers, the process can be easily controlled → By using computers, researches can easily control the process.",
+            "standard": null,
+            "resources": 
+                [
+                ]
+        },
+		{	"id":17,
+            "name": "Parallel Structure Within Lists",
+            "description": "In a sentence that lists actions, verb tense needs to be consistent with the nouns that they are modifying.",
+            "type": "grammar",
+            "subtype": "word usage",
+            "gradelevel": 3,
+            "example": "My brother went to school, work and came home. → My brother went to school, went to work, and came home.",
+            "standard": null,
+            "resources": 
+                [
+                ]
+        },
+		{	"id":18,
+            "name": "Compound Noun Possessives",
+            "description": "In a possessive compound noun phrase, the final element takes the possessive form, even in the plural.",
+            "type": "grammar",
+            "subtype": "possessives",
+            "gradelevel": 3,
+            "example": "My brothers'-in-laws favorite thing to do together is watch football. → My brothers-in-laws' favorite thing to do together is watch football.",
+            "standard": null,
+            "resources": 
+                [
+                ]
+        },
+		{	"id":19,
+            "name": "Pronoun Case",
+            "description": "Personal pronouns should change form to match the person, number, and case of the related words and structures.",
+            "type": "grammar",
+            "subtype": "pronouns",
+            "gradelevel": 3,
+            "example": "Him and I learned a lot together. → He and I learned a lot together.",
+            "standard": null,
+            "resources": 
+                [
+                ]
+        },
+		{	"id":20,
+            "name": "Active vs. Passive Voice",
+            "description": "A sentence should be constructed basically as subject + verb + object. This keeps the writer's voice active.",
+            "type": "style",
+            "subtype": "word usage",
+            "gradelevel": 3,
+            "example": "The apple was eaten by Alice. → Alice ate the apple.",
+            "standard": null,
+            "resources": 
+                [
+                ]
+        },
+		{	"id":21,
+            "name": "Adjectives Only Modify Nouns and Pronouns",
+            "description": "Adjectives should be used as modifiers only to nouns and pronouns.",
+            "type": "grammar",
+            "subtype": "word usage",
+            "gradelevel": 3,
+            "example": "She ran so quick! → She ran so quickly!",
+            "standard": null,
+            "resources": 
+                [
+                ]
+        },
+		{	"id":50,
+            "name": "Within Idea Transitions",
+            "description": "Student uses transitional words and phrases to link ideas within categories (e.g. another, for example, also, because).",
+            "type": "style",
+            "subtype": "transitions",
+            "gradelevel": 3,
+            "standard": null,
+            "example": "A minimum of 15% of sentences contain a transitional word.",
+            "resources":
+                [
+                    {"type": "link",
+                    "url":"https://msu.edu/~jdowell/135/transw.html",
+                    "name": "Transition Words",
+                    "grade": null
+                    }
+                ]
+        },
+        {	"id":51,
+            "name": "Across Idea Transitions",
+            "description": "Student uses transitional words and phrases to link ideas across categories (e.g. in contrast, especially).",
+            "type": "style",
+            "subtype": "transitions",
+            "gradelevel": 3,
+            "example": null,
+            "standard": "A minimum of 15% of sentences contain a transitional word.",
+            "resources":
+                [
+                    {"type": "link",
+                    "url":"https://msu.edu/~jdowell/135/transw.html",
+                    "name": "Transition Words",
+                    "grade": null
+                    }
+                ]
+        },
+        {	"id":52,
+            "name": "Opinion Piece Specific Transitions",
+            "description": "Student uses transitional words and phrases to connect opinions and reasons (e.g. because, therefore, since, for example).",
+            "type": "style",
+            "subtype": "transitions",
+            "gradelevel": 3,
+            "example": null,
+            "standard": "A minimum of 15% of sentences contain a transitional word.",
+            "resources":
+                [
+                    {"type": "link",
+                    "url":"https://msu.edu/~jdowell/135/transw.html",
+                    "name": "Transition Words",
+                    "grade": null
+                    }
+                ]
+        },
+        {   "id":53,
+            "name": "Diversity of Leading Phrases",
+            "description": "Student begins sentences with a variety of two-word phrases.",
+            "type": "style",
+            "subtype": "diversity",
+            "gradelevel": 3,
+            "standard": "A minimum of 25% of sentences begin with the same two-word phrase",
+            "Example": "",
+            "resources": 
+                [
+                ]
+        },
+        {   "id":54,
+            "name": "Diversity of Sentence Structure",
+            "description": "Student uses a variety of sentence structures: simple, compound, and complex.",
+            "type": "style",
+            "subtype": "diversity",
+            "gradelevel": 3,
+            "standard": "A maximum of 75% of sentences are complex or compound sentences.",
+            "Example": "",
+            "resources": 
+                [
+                ]
+        },
+        {   "id":55,
+            "name": "Overuse of Simple Sentence Structure",
+            "description": "Student does not overly use simple sentence structure",
+            "type": "style",
+            "subtype": "diversity",
+            "gradelevel": 3,
+            "standard": "A maximum of 50% of sentences are simple sentences.",
+            "Example": "",
+            "resources": 
+                [
+                ]
+        },
+		{   "id":56,
+            "name": "Adjectives and Adverbs",
+            "description": "Student uses comparative adjectives and adverbs.",
+            "type": "style",
+            "subtype": "language",
+            "gradelevel": 3,
+            "standard": "A minimum of five comparative adjectives and adverbs are used.",
+            "Example": "",
+            "resources": 
+                [
+                ]
+        },
+        {   "id":57,
+            "name": "Total Length",
+            "description": "Student writes an essay of appropriate length to address the writing prompt.",
+            "type": "style",
+            "subtype": "clarity",
+            "gradelevel": 3,
+            "standard": "Student writes a minimum of 75 words.",
+            "Example": "",
+            "resources": 
+                [
+                ]
+        },
+        {   "id":58,
+            "name": "Sentence Length",
+            "description": "Student should write sentences of various length.",
+            "type": "style",
+            "subtype": "complexity",
+            "gradelevel": 3,
+            "standard": "Students have an average of eight words per sentence.",
+            "Example": "",
+            "resources": 
+                [
+                ]
+        },
+		{	"id":150,
+			"name": "Possessive Noun Formation",
+			"description": "A proper possessive noun requires proper positioning of an apostrophe. In a singular possessive, add \" 's\" to the possessor. For a plural possessive, add \"s'\" after the possessor.",
+			"type": "grammar",
+			"subtype": "possessives",
+			"gradelevel": 3,
+			"standard": null,
+			"example": "The cats toy is blue. → The cat's toy is blue.",
+			"resources": 
+				[
+				]
+		},
+		{	"id":151,
+			"name": "Sentence-ending Prepositions",
+			"description": "Sentences should not be ended with a preposition.",
+			"type": "grammar",
+			"subtype": "prepositions",
+			"gradelevel": 3,
+			"standard": "",
+			"example": "Which container does the ball go in? → In which container does the ball go?",
+			"resources": 
+				[
+				]
+		},
+		{	"id":152,
+			"name": "Split Infinitive",
+			"description": "Generally, infinitives should not be split. Infinitive splitting may be used in some cases to emphasize the splitting adverb or to avoid clumsy-sounding structures that would be caused by avoiding the split.",
+			"type": "grammar",
+			"subtype": "verbs",
+			"gradelevel": 3,
+			"standard": "",
+			"example": "My turtle likes to slowly walk around. → My turtle likes to walk around slowly.",
+			"resources": 
+				[
+				]
+		}
+	]
+}

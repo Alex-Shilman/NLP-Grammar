@@ -1,0 +1,151 @@
+{  
+    "examples":[  
+       {  
+          "id":"student0",
+          "name": "Donnie Brasco",
+          "text":"That are the challenges that they faced.",
+          "error":"verb and noun plurality mismatch",
+          "expected":"Those are the challenges that they faced."
+       },
+       {  
+          "id":"student1",
+          "name": "Sunshine Dunnington",
+          "text":"They is going home soon.",
+          "error":"verb and noun plurality mismatch",
+          "expected":"They are going home soon."
+       },
+       {  
+          "id":"student2",
+          "name": "Frederick Larrick",
+          "text":"The little pups crawl around all day, one on top of the other. They come for their milk, then crawl. They don’t know who the big wolf bringing meat is; that is their Papa Silver. They learn. The pups learn to walk and drink. They like oonly drinking milk, no meat yet.  They tripple their weight every few weeks and now they are becoming very big, but one does not match.  Soon it will be time for them to leave. They will be able to walk, to hunt, and to start their own family. Something different is what Runt will be.  Today is the day that they leave the den. They will go on and live their own lives. And as soon as we get outside, Runt starts to ask me all these questions! \"What is this, what is that?\" He inquires. He is such a curios boy to want to check outside for the clouds. It is the final time I will see these pups. Wondering what direction they will take some day, I get tears in my eyes. After they leave, I go slow back in the den. We are lonely. I remember the day they were born.  I remember the first time I saw tyhose little eyes and paws. I remember the first time they walked. They is fast. They ran slow.",
+          "error":null,
+          "expected":null
+       },
+       {  
+          "id":"student3",
+          "name": "Allen Dees",
+          "text":"Mom or dad are going to drive me to dance.",
+          "error":"verb and noun plurality mismatch",
+          "expected":"Mom or dad is going to drive me to dance"
+       },
+       {  
+          "id":"student4",
+          "name": "Gordon Rozelle",
+          "text":"this is the first time I have heard of it.",
+          "error":"capitalization at beginning of sentence",
+          "expected":"This is the first time I have heard of it."
+       },
+       {  
+          "id":"student5",
+          "name": "Ione Kuhn",
+          "text":"My name is morton.",
+          "error":"capitalize proper nouns",
+          "expected":"My name is Morton."
+       },
+       {  
+          "id":"student6",
+          "name": "Chase English",
+          "text":"My Name is Andrea and I live in Arizona.",
+          "error":"don't capitalize non-proper nouns which don't begin sentences",
+          "expected":"My name is Andrea and I live in Arizona."
+       },
+       {  
+          "id":"student7",
+          "name": "Tandy Cantwell",
+          "text":"And I like cake.",
+          "error":"do not begin sentences with conjunctions",
+          "expected":"I like cake."
+       },
+       {  
+          "id":"student8",
+          "name": "Anya Mccrea",
+          "text":"While driving to my aunt's house, our dog got lost.",
+          "error":"dangling gerund",
+          "expected":"Our dog got lost while [subject] was driving to my aunt's house."
+       },
+       {  
+          "id":"student9",
+          "name": "Alonzo Dowd",
+          "text":"Usually in our house, my sister thinks it's cold.",
+          "error":"dangling participle",
+          "expected":"Usually my sister thinks it's cold in our house."
+       },
+       {  
+          "id":"student10",
+          "name": "Carlos Pellett",
+          "text":"My least favorite food group are vegetables.",
+          "error":"verb and noun plurality mismatch - false attraction to predicate nominative",
+          "expected":"My least favorite food group is vegetables"
+       },
+       {  
+          "id":"student11",
+          "name": "Jorge Veitch",
+          "text":"I could of gone with them if they let me know earlier!",
+          "error":"",
+          "expected":"I could have gone with them if they let me know earlier!"
+       },
+       {  
+          "id":"student12",
+          "name": "Chelsey Noles",
+          "text":"My brother went to the school, work and came home.",
+          "error":"parallel structure within a list",
+          "expected":"My brother went to school, went to work, and came home."
+       },
+       {  
+          "id":"student13",
+          "name": "Cornelius Turman",
+          "text":"My brothers'-in-law favorite thing to do together is watch football.",
+          "error":"compound noun genitive formation",
+          "expected":"My brothers-in-laws' favorite thing to do together is watch football."
+       },
+       {  
+          "id":"student14",
+          "name": "DMicah Marquess",
+          "text":"Mrs. Jackson the first principal of this school commanded a lot of respect from her colleagues.",
+          "error":"offset appositives with commas",
+          "expected":"Mrs. Jackson, the first principal of this school, commanded a lot of respect from her colleagues."
+       },
+       {  
+          "id":"student15",
+          "name": "Jack Nickle",
+          "text":"Him and I learned that it's important to put away our video games so that the puppies don't destroy them.",
+          "error":"pronoun case",
+          "expected":"He and I learned that it's important to put away our video games so that the puppes don't destroy them."
+       },
+       {  
+          "id":"student16",
+          "name": "Ocie Mitra",
+          "text":"The washing machine was really running quick! It got the clothes clean lickety-split.",
+          "error":"adjectives only modify nouns or pronouns",
+          "expected":"The washing machine was really running quickly! It got the clothes clean lickety-split."
+       },
+       {  
+          "id":"student17",
+          "name": "Krystyna Jung",
+          "text":"The apple was eaten by Alice.",
+          "error":"passive voice",
+          "expected":"Alice ate the apple"
+       },
+       {  
+          "id":"student18",
+          "name": "Dorethea Fitz",
+          "text":"She ran quick.",
+          "error":"adjectives cannot modify verbs",
+          "expected":"She ran quickly."
+       },
+       {  
+          "id":"student19",
+          "name": "Ayana Krebs",
+          "text":"In the story hiding out two cats named Marco and Polo.",
+          "error":"passive voice",
+          "expected":"In the story, two cats named Marco and Polo were hiding out."
+       },
+	   {  
+          "id":"student20",
+          "name": "Man Mccalley",
+          "text":"One reason why the author uses the text features to help the reader understand the grizzly bears is by putting a diagram at the beginning of the passage. This helps the reader understand what the grizzly bear looks like. For example it helps me understand what a grizzly bear looks like, and also how big and strong it looks. And if it wasn't there I would have to imagine what it looks like.",
+          "error": null,
+          "expected": null
+       }
+    ]
+ }

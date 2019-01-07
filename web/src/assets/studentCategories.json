@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "label":"Category - 1",
+        "color":"#3366CC"
+    },
+    {
+        "id": 2,
+        "label":"Category - 2",
+        "color":"#DC3912"
+    },
+    {
+        "id": 3,
+        "label":"Category - 3",
+        "color":"#FF9900"
+    },
+    {
+        "id": 4,
+        "label":"Category - 4",
+        "color":"#109618"
+    },
+    {
+        "id": 5,
+        "label":"Category - 5",
+        "color":"#990099"
+    }
+]

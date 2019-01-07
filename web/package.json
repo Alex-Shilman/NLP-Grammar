@@ -1,0 +1,54 @@
+{
+  "name": "nlp-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.2.1",
+    "classnames": "^2.2.6",
+    "d3": "^3.5.17",
+    "flow-bin": "^0.89.0",
+    "lodash": "^4.17.11",
+    "nodemon": "^1.18.9",
+    "npm-run-all": "^4.1.5",
+    "react": "^16.7.0",
+    "react-bootstrap": "^0.32.4",
+    "react-data-grid": "^5.0.5",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-table": "^6.8.6",
+    "react-transition-group": "^2.2.1",
+    "reactjs-popup": "^1.3.2",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "styled-components": "^4.1.3",
+    "styled-icons": "^6.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "python-messaging": "npm run --prefix \"../express-server/\" start-python-messaging",
+    "server": "npm run --prefix \"../express-server/\" start-nodemon",
+    "flow": "flow",
+    "dev": "run-p server python-messaging start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,34 @@
+{"assignments":
+	[
+		{	"assignmentassessment":
+			{
+				"basicgradelevelerrors":
+					[
+						{	"ruleid":1,
+							"positions":
+								[
+									"(1, 5)",
+									"(11, 13)"
+								],
+							"errordescription": "The words \"Don't\" and \"no\" are both negative 	words which modify the word \"eat\""
+						}
+					],
+				"rubricrulesassessment":
+					[
+						{	"ruleid":37,
+							"positions":
+								[
+									"(5, 8)",
+									"(15, 22)",
+									"(48, 53)"
+								],
+							"metcriteria": true
+						}
+					],
+			"gradelevel": 0,
+			"writingsample": "This is placeholder text for the student's writing example which should contain the errors and successes as described above.",
+			"assignmentid": 55785
+			}	
+		}
+	]
+}
